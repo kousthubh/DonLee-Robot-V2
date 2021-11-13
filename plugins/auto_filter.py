@@ -129,8 +129,11 @@ async def cb_navg(bot, update: CallbackQuery):
     reply_markup = InlineKeyboardMarkup(temp_results)
     text=f"""
 ↪️ Requested: {query}
+
 🗃️ Total Files : {leng}
+
 📑 Total Page : 1/{index_val + 1}/{len(results) if len(results) < max_pages else max_pages}
+
 👤 Requested By : {update.from_user.mention}"""
         
     try:
@@ -140,12 +143,19 @@ async def cb_navg(bot, update: CallbackQuery):
 ↪️ Requested: {query}
 
 🎞️ Title: <a href={imdb['url']}>{imdb.get('title')}
+
 🎭 Genres: {imdb.get('genres')}
+
 📆 Year: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>
+
 🌟 Rating: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10
+
 🗃️ Total Files : {leng}
+
 📑 Total Page : 1/{index_val + 1}/{len(results) if len(results) < max_pages else max_pages}
+
 👤 Requested By : {update.from_user.mention}
+
 🖋 StoryLine: <code>{imdb.get('plot')} </code>""",
                 reply_markup=reply_markup,
                 parse_mode="html"
@@ -168,12 +178,19 @@ async def cb_navg(bot, update: CallbackQuery):
 ↪️ Requested: {query}
 
 🎞️ Title: <a href={imdb['url']}>{imdb.get('title')}
+
 🎭 Genres: {imdb.get('genres')}
+
 📆 Year: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>
+
 🌟 Rating: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10
+
 🗃️ Total Files : {leng}
+
 📑 Total Page : 1/{index_val + 1}/{len(results) if len(results) < max_pages else max_pages}
+
 👤 Requested By : {update.from_user.mention}
+
 🖋 StoryLine: <code>{imdb.get('plot')} </code>""",
                 reply_markup=reply_markup,
                 parse_mode="html"
