@@ -370,23 +370,23 @@ async def cb_handler(client, query):
                [
                    [
                        InlineKeyboardButton("TroJanzHEX", url="https://github.com/TroJanzHEX"),
-                       InlineKeyboardButton("Use", url="https://github.com/TroJanzHEX/Unlimited-Filter-Bot")
+                       InlineKeyboardButton("Use", url="https://t.me/SH_Movies")
                    ],
                    [
                        InlineKeyboardButton("CrazyBotsz", url="https://github.com/CrazyBotsz"),
-                       InlineKeyboardButton("Use", url="https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2")
+                       InlineKeyboardButton("Use", url="https://t.me/SH_Movies")
                    ],
                    [
                        InlineKeyboardButton("bughunter0", url="https://github.com/bughunter0"),
-                       InlineKeyboardButton("Use", url="https://github.com/bughunter0/ban-bot")
+                       InlineKeyboardButton("Use", url="https://t.me/SH_Movies")
                    ],
                    [
                        InlineKeyboardButton("Pr0fess0r-99", url="https://github.com/Pr0fess0r-99"),
-                       InlineKeyboardButton("Use", url="https://github.com/Pr0fess0r-99/Auto-Welcome-Bot")
+                       InlineKeyboardButton("Use", url="https://t.me/SH_Movies")
                    ],
                    [
-                       InlineKeyboardButton("EvamariaTG", url="https://github.com/EvamariaTG"),
-                       InlineKeyboardButton("Use", url="https://github.com/EvamariaTG/EvaMaria")
+                       InlineKeyboardButton("Share", url="http://t.me/share/url?url=https://t.me/SHProSearchbot"),
+                       InlineKeyboardButton("Use", url="https://t.me/SH_Movies")
                    ],
                    [
                        InlineKeyboardButton("🔙 back 🔙", callback_data="devmuhammed")
@@ -399,23 +399,23 @@ async def cb_handler(client, query):
                [
                    [
                        InlineKeyboardButton("TroJanzHEX", url="https://github.com/TroJanzHEX"),
-                       InlineKeyboardButton("Use", url="https://github.com/TroJanzHEX/Unlimited-Filter-Bot")
+                       InlineKeyboardButton("Use", url="https://t.me/SH_Movies")
                    ],
                    [
                        InlineKeyboardButton("CrazyBotsz", url="https://github.com/CrazyBotsz"),
-                       InlineKeyboardButton("Use", url="https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2")
+                       InlineKeyboardButton("Use", url="https://t.me/SH_Movies")
                    ],
                    [
                        InlineKeyboardButton("bughunter0", url="https://github.com/bughunter0"),
-                       InlineKeyboardButton("Use", url="https://github.com/bughunter0/ban-bot")
+                       InlineKeyboardButton("Use", url="https://t.me/SH_Movies")
                    ],
                    [
                        InlineKeyboardButton("Pr0fess0r-99", url="https://github.com/Pr0fess0r-99"),
-                       InlineKeyboardButton("Use", url="https://github.com/Pr0fess0r-99/Auto-Welcome-Bot")
+                       InlineKeyboardButton("Use", url="https://t.me/SH_Movies")
                    ],
                    [
-                       InlineKeyboardButton("EvamariaTG", url="https://github.com/EvamariaTG"),
-                       InlineKeyboardButton("Use", url="https://github.com/EvamariaTG/EvaMaria")
+                       InlineKeyboardButton("Share", url="http://t.me/share/url?url=https://t.me/SHProSearchbot"),
+                       InlineKeyboardButton("Use", url="https://t.me/SH_Movies")
                    ],
                    [
                        InlineKeyboardButton("🔙 back 🔙", callback_data="source")
