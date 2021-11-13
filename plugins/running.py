@@ -547,13 +547,21 @@ async def auto_filter(bot, update):
                 photo=movie_url,
                 caption=f"""↪️ Requested: {query}
 🎞️ Title: <a href={imdb['url']}>{imdb.get('title')}
+
 🎭 Genres: {imdb.get('genres')}
+
 📆 Year: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>
+
 🌟 Rating: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10
+
 🗃️ Total Files : {(len_results)}
+
 📑 Total Page : 1/{len_result if len_result < max_pages else max_pages}
+
 👤 Requested By : {update.from_user.mention}
+
 🖋 StoryLine: <code>{imdb.get('plot')} </code>"
+
 ☑️ Chat : {update.chat.title}""",
                 reply_markup=reply_markup,
                 chat_id=update.chat.id,
@@ -569,8 +577,11 @@ async def auto_filter(bot, update):
                 chat_id = update.chat.id,
                 text=f"""↪️ Requested: {query}
 🗃️ Total Files : {(len_results)}
+
 📑 Total Page : 1/{len_result if len_result < max_pages else max_pages}
+
 👤 Requested By : {update.from_user.mention}
+
 ☑️ Chat : {update.chat.title}
 """,
                 reply_markup=reply_markup,
