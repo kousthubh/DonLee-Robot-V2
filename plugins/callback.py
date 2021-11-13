@@ -369,19 +369,19 @@ async def cb_handler(client, query):
         await query.message.edit_text(Translation.CREDITS_TEXT, reply_markup=InlineKeyboardMarkup(
                [
                    [
-                       InlineKeyboardButton("TroJanzHEX", url="https://github.com/TroJanzHEX"),
+                       InlineKeyboardButton("Share", url="http://t.me/share/url?url=https://t.me/SHProSearchbot"),
                        InlineKeyboardButton("Use", url="https://t.me/SH_Movies")
                    ],
                    [
-                       InlineKeyboardButton("CrazyBotsz", url="https://github.com/CrazyBotsz"),
+                       InlineKeyboardButton("Share", url="http://t.me/share/url?url=https://t.me/SHProSearchbot"),
                        InlineKeyboardButton("Use", url="https://t.me/SH_Movies")
                    ],
                    [
-                       InlineKeyboardButton("bughunter0", url="https://github.com/bughunter0"),
+                       InlineKeyboardButton("Share", url="http://t.me/share/url?url=https://t.me/SHProSearchbot"),
                        InlineKeyboardButton("Use", url="https://t.me/SH_Movies")
                    ],
                    [
-                       InlineKeyboardButton("Pr0fess0r-99", url="https://github.com/Pr0fess0r-99"),
+                       InlineKeyboardButton("Share", url="http://t.me/share/url?url=https://t.me/SHProSearchbot"),
                        InlineKeyboardButton("Use", url="https://t.me/SH_Movies")
                    ],
                    [
@@ -398,19 +398,19 @@ async def cb_handler(client, query):
         await query.message.edit_text(Translation.CREDITS_TEXT, reply_markup=InlineKeyboardMarkup(
                [
                    [
-                       InlineKeyboardButton("TroJanzHEX", url="https://github.com/TroJanzHEX"),
+                       InlineKeyboardButton("Share", url="http://t.me/share/url?url=https://t.me/SHProSearchbot"),
                        InlineKeyboardButton("Use", url="https://t.me/SH_Movies")
                    ],
                    [
-                       InlineKeyboardButton("CrazyBotsz", url="https://github.com/CrazyBotsz"),
+                       InlineKeyboardButton("Share", url="http://t.me/share/url?url=https://t.me/SHProSearchbot"),
                        InlineKeyboardButton("Use", url="https://t.me/SH_Movies")
                    ],
                    [
-                       InlineKeyboardButton("bughunter0", url="https://github.com/bughunter0"),
+                       InlineKeyboardButton("Share", url="http://t.me/share/url?url=https://t.me/SHProSearchbot"),
                        InlineKeyboardButton("Use", url="https://t.me/SH_Movies")
                    ],
                    [
-                       InlineKeyboardButton("Pr0fess0r-99", url="https://github.com/Pr0fess0r-99"),
+                       InlineKeyboardButton("Share", url="http://t.me/share/url?url=https://t.me/SHProSearchbot"),
                        InlineKeyboardButton("Use", url="https://t.me/SH_Movies")
                    ],
                    [
