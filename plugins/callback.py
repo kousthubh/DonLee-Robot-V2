@@ -329,12 +329,12 @@ async def cb_handler(client, query):
         await query.message.edit_text(Translation.SOURCE_TEXT, reply_markup=InlineKeyboardMarkup(
                [
                    [
-                       InlineKeyboardButton('☢️Frok', url='https://github.com/gangstar1010/DonLee-Robot-V2/fork'),
-                       InlineKeyboardButton('🌟Star', url='https://github.com/gangstar1010/DonLee-Robot-V2/stargazers')
+                       InlineKeyboardButton('☢️Frok', url='https://t.me/PS_MOVIES1'),
+                       InlineKeyboardButton('🌟Star', url='https://t.me/allmovierequsetgroup')
                    ],
                    [
-                       InlineKeyboardButton('🏵Repo', url='https://t.me/SHProSearchbot'),
-                       InlineKeyboardButton('🧩Deploy', url='https://t.me/SHProSearchbot')
+                       InlineKeyboardButton('🏵Repo', url='https://t.me/half_intelligent_2'),
+                       InlineKeyboardButton('🧩Deploy', url='https://t.me/allmovierequsetgroup')
                    ],
                    [
                        InlineKeyboardButton("🔙 Back 🔙", callback_data="about")
